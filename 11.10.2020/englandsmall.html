@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css " />
+    <title>England</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      section {
+        position: relative;
+        width: 100%;
+        min-height: 20vh;
+        background: url(img/GretaBritaniaHeader.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 100px;
+      }
+
+      .section-content {
+        min-height: 80vh;
+        width: 100%;
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+      }
+
+      .container {
+        max-width: 1200px;
+        width: 100%;
+      }
+
+      .Title {
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 48px;
+        font-weight: 600;
+        color: #333;
+      }
+      .Title:after {
+        content: "";
+        display: block;
+        width: 230px;
+        height: 4px;
+        margin: 30px auto;
+        background-color: #333;
+      }
+
+      .BoxContent {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+      }
+
+      .box-item {
+        width: 50%;
+        padding: 0 15px;
+        margin-top: 50px;
+      }
+
+      .box-img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      table {
+        text-align: center;
+        border: 0.05em solid #333333;
+      }
+      caption {
+        font-size: 20px;
+        font-weight: 500;
+        color: #333;
+        margin-bottom: 10px;
+      }
+      td,
+      th {
+        text-align: center;
+        padding: 0.6em;
+        background: #03a9f4;
+        color: #333;
+        border: 0.05em solid #000;
+      }
+
+      .high {
+        background: #fff;
+        color: #03a9f4;
+        font-weight: 600;
+        text-transform: uppercase;
+        transition: color 0.5s linear;
+        cursor: pointer;
+      }
+
+      .high:hover {
+        color: brown;
+      }
+    </style>
+    <section>
+      <header>
+        <a href="#" class="logo"
+          ><img src="img/EnglandFlag.png" alt="EnglandFlag"
+        /></a>
+        <ul class="navigation">
+          <li><a href="index.html" class="active">Great Britain</a></li>
+          <li><a href="England.html">England</a></li>
+          <li><a href="Scotland.html">Scotland</a></li>
+          <li><a href="Wales.html">Wales</a></li>
+        </ul>
+      </header>
+    </section>
+    <section class="section-content">
+      <div class="container">
+        <div class="Title">
+          <p>England</p>
+        </div>
+        <div class="BoxContent">
+          <div class="box-item">
+            <table>
+              <caption>
+                Top 3 cities in England
+              </caption>
+              <tr>
+                <th>Rank</th>
+                <th>Locality</th>
+                <th>Population</th>
+              </tr>
+              <tr>
+                <td class="high">1</td>
+                <td class="high">London</td>
+                <td class="high">10,236,000</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Manchester</td>
+                <td>2,639,000</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Birmingham</td>
+                <td>2,512,000</td>
+              </tr>
+            </table>
+          </div>
+          <div class="box-item">
+            <img src="img/EnglandMap.png" alt="" class="box-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

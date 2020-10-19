@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url(img/ScotlandBG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header .navigation li a {
+  color: #fff;
+}
+
+.content .contentBx h2 {
+  color: #fff;
+}
+
+.content .contentBx p {
+  color: #fff;
+  font-weight: 500;
+  color: #fff;
+}
+
+.content .contentBx a:hover {
+  color: #fff;
+}
+
+p {
+  background-color: rgb(0, 0, 0, 0.3);
